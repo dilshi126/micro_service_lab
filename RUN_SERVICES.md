@@ -13,7 +13,7 @@
 2. Connect to your PostgreSQL server
 3. Right-click on "Databases" → "Create" → "Database"
 4. Create these 4 databases:
-   - `studentdb`
+   - `studentsdb`
    - `coursedb`
    - `enrollmentdb`
    - `resultdb`
@@ -24,7 +24,7 @@
 
 ### Option C: Using Command Line
 ```bash
-psql -U postgres -c "CREATE DATABASE studentdb;"
+psql -U postgres -c "CREATE DATABASE studentsdb;"
 psql -U postgres -c "CREATE DATABASE coursedb;"
 psql -U postgres -c "CREATE DATABASE enrollmentdb;"
 psql -U postgres -c "CREATE DATABASE resultdb;"
@@ -132,7 +132,7 @@ Import these endpoints into Postman for easier testing:
 
 ## Verify in pgAdmin
 1. Open pgAdmin
-2. Connect to each database (studentdb, coursedb, enrollmentdb, resultdb)
+2. Connect to each database (studentsdb, coursedb, enrollmentdb, resultdb)
 3. Browse tables to see the data created by the services
 4. Each service creates its own tables automatically
 
